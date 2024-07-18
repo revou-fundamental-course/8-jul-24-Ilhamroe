@@ -1,0 +1,107 @@
+/* Global CSS */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.main-title {
+  text-align: center;
+}
+
+/* Main Content */
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.left-column, .right-column {
+  flex: 1;
+  margin: 10px;
+}
+
+.article1 {
+  text-align: justify;
+}
+
+.description-feature {
+  margin-top: 30px;
+}
+
+/* Form Input */
+
+.main-form {
+  background-color: #f2f3f5;
+  padding: 20px;
+}
+
+.text-form {
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.form-input {
+  padding-top: 10px;
+}
+
+.button-form {
+  padding-top: 15px;
+}
+
+.button {
+  height: 32px;
+  border-radius: 8px;
+}
+
+.submit {
+  background-color: #5cc0de;
+  color: white;
+  border: 1px;
+}
+
+.reset {
+  background-color: white;
+  border: 1px;
+}
+
+/* Result Content */
+
+.result-content {
+  text-align: center;
+  background-color: #f2f3f5;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.result-article {
+  text-align: justify;
+}
+
+.general-information {
+  text-align: center;
+  background-color: #f2f3f5;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+
+/* Footer */
+
+.footer {
+  text-align: center;
+  align-items: center;
+}
+
+/* Image Styles */
+
+.apple {
+  height: 21%;
+  width: 21.5%;
+}
+
+.google {
+  height: 19.5%;
+  width: 19.5%;
+}
